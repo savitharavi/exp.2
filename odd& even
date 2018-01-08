@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int count;
+printf("enter the integer"/n);
+scanf("%d",&count);
+if(count%4==0)
+printf("thr
