@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conoi.h>
+int main ()
+{
+int n;
+printf("enter any integer");
+scanf("%d",&n);
+if(n<=0)
+{
+if(n==0)
+{
+printf("given nois zero");
+}
+else
+{
+printf("given no is -ve");
+}
+}
+printf("given no is +ve");
+}
+return 0;
+}
